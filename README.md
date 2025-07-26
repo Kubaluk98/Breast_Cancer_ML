@@ -21,33 +21,6 @@ It contains features computed from a digitized image of a fine needle aspirate (
 
 **Note:** The `breast_cancer.csv` file should be placed in the root directory of this repository for the code to run correctly. If not included, please obtain it from the UCI ML Repository or a similar source.
 
-## Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine.
-
-### Prerequisites
-
-* Python 3.x
-* `pip` (Python package installer)
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[YourUsername]/[YourRepositoryName].git
-    cd [YourRepositoryName]
-    ```
-    (Replace `[YourUsername]` and `[YourRepositoryName]` with your actual GitHub username and repository name, e.g., `BreastCancerPrediction-LogisticRegression`)
-
-2.  **Download the Dataset:**
-    * Ensure the `breast_cancer.csv` file is present in the root directory of the cloned repository. If you obtained this project without the CSV, you will need to download the "Wisconsin Breast Cancer (Diagnostic)" dataset (often provided as `wdbc.data` or `breast-cancer-wisconsin.data`) and rename/convert it to `breast_cancer.csv`. A common source is the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic).
-
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    This command will install `pandas` and `scikit-learn`, which are listed in your `requirements.txt` file.
-
 Results
 
 Confusion Matrix:
