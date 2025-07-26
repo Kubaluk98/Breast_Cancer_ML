@@ -7,12 +7,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 ##Importing the dataset
 # IMPORTANT: You'll need to upload 'breast_cancer.csv' to the same repository
 # or provide a link to where it can be downloaded.
-try:
-    ds = pd.read_csv('breast_cancer.csv')
-except FileNotFoundError:
-    print("Error: 'breast_cancer.csv' not found. Please ensure the dataset is in the same directory.")
-    print("You can download it from: [Link to dataset, e.g., UCI ML Repository if available]")
-    exit() # Exit if the dataset isn't found
+ds = pd.read_csv('breast_cancer.csv')
 
 X = ds.iloc[:, 1:-1].values
 y = ds.iloc[:, -1].values
